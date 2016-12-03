@@ -16,7 +16,9 @@ Basically, the steps (for every distro) are:
 
 
  a. Layered FS
+ 
  b. Compressed FS
+ 
  c. Temporary FS
 
 
