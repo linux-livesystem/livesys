@@ -14,9 +14,11 @@ Basically, the steps (for every distro) are:
 
 0. __Install Dependencies__
 
+
  a. Layered FS
  b. Compressed FS
  c. Temporary FS
+
 
 1. __Initialize the OS Image__
  
