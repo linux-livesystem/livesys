@@ -20,7 +20,7 @@ With this, you can create many layers, and even temporary layers, which only exi
 
 Basically, the steps (for every distro) are:
 
-0. __Install Dependencies__ ................................. Layered FS, Compressed FS, Temporary FS
+0. __Install File Systems__ ................................. Layered FS, Compressed FS, Temporary FS
 
 1. __Prepare the OS Image__ .............................. Compress it (optional)
 
