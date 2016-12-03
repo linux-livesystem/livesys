@@ -12,18 +12,20 @@ With this you can also:
 
 Basically, the steps (for every distro) are:
 
-0. Install Dependencies
+0. #Install Dependencies#
 
+ a. Layered FS
+ b. Compressed FS
+ c. Temporary FS
 
-
-1. Initialize the OS Image
+1. #Initialize the OS Image#
  
  a. Compress it (optional)
 
-2. Rebuild the InitRAMFS
+2. #Rebuild the InitRAMFS#
 
  b. To include the LiveSYSTEM Script -- and the kernel/modules it needs
 
-3. Reinstall Grub
+3. #Reinstall Grub#
 
  a. To point to the Initramfs
