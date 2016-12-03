@@ -1,0 +1,16 @@
+build() {
+
+add_binary umount
+add_binary rsync
+
+add_binary df
+add_binary free
+add_binary tune2fs
+
+add_module squashfs
+add_module loop
+add_module overlay
+
+add_runscript
+
+}

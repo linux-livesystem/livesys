@@ -1,0 +1,7 @@
+	menuentry 'LIVESYSTEM' {
+		insmod part_msdos 
+		insmod ext2
+		set root='hd0,msdos4'
+		linux /boot/vmlinuz-linux root=LABEL=PC-LIVESYSTEM rw break=postmount
+		initrd /boot/initramfs-livesystem.img
+	}

@@ -1,0 +1,12 @@
+# livesystem mkinitcpio preset file
+
+PRESETS=('default' 'fallback')
+
+ALL_kver='/boot/vmlinuz-linux'
+ALL_config='/etc/mkinitcpio.conf'
+
+default_image="/tmp/initramfs-livesystem.img"
+default_options="-A livesystem"
+
+fallback_image="/tmp/initramfs-livesystem-fallback.img"
+fallback_options="-A livesystem -S autodetect"
