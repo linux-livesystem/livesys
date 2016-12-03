@@ -22,7 +22,7 @@ Basically, the steps (for every distro) are:
 
 0. __Install Dependencies__ ................................. Layered FS, Compressed FS, Temporary FS
 
-1. __Initialize the OS Image__ .............................. Compress it (optional)
+1. __Prepare the OS Image__ .............................. Compress it (optional)
 
 2. __Rebuild the Boot Image__ ................................ to include this Script -- and the kernel/modules it needs
 
