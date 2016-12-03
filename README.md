@@ -12,24 +12,10 @@ With this you can also:
 
 Basically, the steps (for every distro) are:
 
-0. __Install Dependencies__
+0. __Install Dependencies__ -> Layered FS, Compressed FS, Temporary FS
 
+1. __Initialize the OS Image__ -> Compress it (optional)
 
- a. Layered FS
- 
- b. Compressed FS
- 
- c. Temporary FS
+2. __Rebuild the InitRAMFS__ -> to include the LiveSYSTEM Script -- and the kernel/modules it needs
 
-
-1. __Initialize the OS Image__
- 
- a. Compress it (optional)
-
-2. __Rebuild the InitRAMFS__
-
- b. To include the LiveSYSTEM Script -- and the kernel/modules it needs
-
-3. __Reinstall Grub__
-
- a. To point to the Initramfs
+3. __Reinstall Grub__ -> to point to the Initramfs
