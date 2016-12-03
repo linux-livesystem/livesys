@@ -4,7 +4,7 @@
 
 With this you can also:
 
-1. Compress the Core OS
+1. Compress the OS
 2. Toggle Persistence On/Off
 3. Switch Profiles
 
